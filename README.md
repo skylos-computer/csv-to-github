@@ -44,9 +44,9 @@ Generate a [Personal Access Token](https://github.com/settings/tokens) with the 
 Prepare a `.csv` file with the following columns:
 
 ```csv
-title,body,labels
-"Fix login bug","User can't login due to cookie error","bug,frontend"
-"Add dark mode","Implement dark mode toggle","feature,UI"
+title,body
+"Fix login bug","User can't login due to cookie error"
+"Add dark mode","Implement dark mode toggle"
 ```
 
 ## Usage
