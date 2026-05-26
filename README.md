@@ -63,6 +63,8 @@ It will loop through the CSV and create an issue for each row.
 
 If any issue fails to create, the script will show the HTTP status and error message returned by the GitHub API (e.g., `401 Bad Credentials`, `404 Repository Not Found`).
 
+Due to [secondary rate limiting](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2026-03-10#about-secondary-rate-limits), this tool can only create 80 issues per minute or 500 issues per hour. For large sets of issues, be aware of this problem.
+
 ## Contributing
 
 Pull requests are welcome! If you have:
